@@ -301,16 +301,23 @@
 
 // Answer
 
-var snack = "chocholate";
+// var snack = "chocholate";
 
-var age = 17;
-var days = 365 * age;
+// var age = 17;
+// var days = 365 * age;
 
-var max = 30;
-var max_days = 365 * max;
+// var max = 30;
+// var max_days = 365 * max;
 
-var left_days = max_days - days;
-var amount = 2;
-var amount_need = left_days / amount;
+// var left_days = max_days - days;
+// var amount = 2;
+// var amount_need = left_days / amount;
 
-console.log( "You will need " + amount_need + " Chocholates");
+// console.log( "You will need " + amount_need + " Chocholates");
+
+
+
+
+
+
+
