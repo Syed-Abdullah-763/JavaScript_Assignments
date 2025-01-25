@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // console.log("Hello assignment 6");
 
 
@@ -128,7 +127,6 @@
 // console.log("English: " + "\t" +total_math + "\t" + obtained_math + "\t" + math_per + "%");
 // console.log("English: " + "\t" +total_programming + "\t" + obtained_programming + "\t" + pro_per + "%");
 
-=======
 // console.log("Hello assignment 6");
 
 
@@ -257,6 +255,4 @@
 // console.log("English: " + "\t" +total_english + "\t" + obtained_english + "\t" + eng_per + "%");
 // console.log("English: " + "\t" +total_math + "\t" + obtained_math + "\t" + math_per + "%");
 // console.log("English: " + "\t" +total_programming + "\t" + obtained_programming + "\t" + pro_per + "%");
-
->>>>>>> bf5df392aeeac29cc71db7b0bcd6f50fee1e5718
 // console.log("\t\t\t" + total + "\t" + total_obtained + "\t" + percentage + "%");
