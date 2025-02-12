@@ -48,19 +48,19 @@
 
 // function calc (num1, opt, num2) {
 //     if(opt == "+") {
-        
+
 //         return num1 + num2
 
 //     }else if(opt == "-") {
-        
+
 //         return num1 - num2
 
 //     }else if(opt == "*") {
-    
+
 //         return num1 * num2
 
 //     }else if(opt == "/") {
-        
+
 //         return num1 / num2
 //     }
 // }
@@ -111,7 +111,7 @@
 // function count(start, end) {
 //     for(var i = start; i <= end; i++) { 
 //         console.log(i);
-        
+
 //     }
 // }
 
@@ -172,4 +172,96 @@
 
 
 
+
+// 10. Write a JavaScript function that checks whether a passed string is palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam.
+
+// function isPalindrome (str) {
+//     var cleanStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+//     // console.log(cleanStr);
+
+//     var reverseStr = cleanStr.split("").reverse().join("");
+//     // console.log(reverseStr);
+
+//     return cleanStr === reverseStr;
+// }
+// isPalindrome("@Ma@dam")
+
+// var result = isPalindrome("@Ma@dam");
+
+// console.log(result);
+
+
+
+
+
+
+// 11.    Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case. 
+// EXAMPLE STRING : 'the quick brown fox'
+// EXPECTED OUTPUT : 'The Quick Brown Fox'
+
+
+// function upperCaseFirstLetter(str) {
+
+//     var splitWords = str.split(" ");
+//     // console.log(splitWords);
+
+//     tempArr = []
+//     for (var i = 0; i < splitWords.length; i++) {
+
+//        tempArr.push(splitWords[i][0].toUpperCase() + splitWords[i].slice(1).toLowerCase());
+//     }
+
+//     return tempArr.join(" ")
+    
+// }
+
+// var result = upperCaseFirstLetter("the quick brown fox");
+// console.log(result);
+
+
+// -----------------OR--------------
+
+
+// function upperCaseFirstLetter(str) {
+
+//     var splitWords = str.split(" ");
+//     // console.log(splitWords);
+
+//     var capitalizedWords = splitWords.map(function (word) {
+//         return word.charAt(0).toUpperCase() + word.slice(1);
+//     })
+    
+//     return capitalizedWords.join(" ")
+// }
+
+// var result = upperCaseFirstLetter("the quick brown fox");
+// console.log(result);
+
+
+
+
+
+
+
+
+// 12. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. EXAMPLE STRING : 'Web Development Tutorial' EXPECTED OUTPUT : 'Development'
+
+// function longestWord (str) {
+//     var splitWords = str.split(" ");
+
+//     var longestWord = "";
+
+//     for (var i = 0; i < splitWords.length; i++) {
+
+//         if(splitWords[i].length > longestWord.length) {
+//             longestWord = splitWords[i]
+//         }
+//     }
+
+//     return longestWord;
+// }
+
+// var result = longestWord("Web Development Turorial")
+// console.log(result);
 
