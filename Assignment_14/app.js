@@ -265,3 +265,80 @@
 // var result = longestWord("Web Development Turorial")
 // console.log(result);
 
+
+
+
+
+
+// 13. Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. Sample arguments : 'JSResourceS.com', 'o'
+
+
+// function countLetter (word, letter) {
+
+//     var splitWord = word.split("");
+//     var number = 0;
+
+//     for(var i = 0; i < splitWord.length; i++) {
+
+//         if(splitWord[i].toLowerCase() === letter.toLowerCase()) {
+//             number = number + 1
+//         }
+//     }
+
+//     return letter + " used " + number + " times in word.";
+// }
+
+// var result = countLetter("JSResourceS.com", "e");
+
+// console.log(result);
+
+// ----------OR----------
+
+// function countLetter (str, letter) {
+//     var ocurrences = str.split("").filter(function (char) {
+//         return letter === char;
+//     }) ;
+
+//     return ocurrences.length;
+// }
+
+// var result = countLetter("JSResourceS.com", "e");
+// console.log(result);
+
+
+
+
+
+
+
+// 14. The Geometrizer
+// Create 2 functions that calculate properties of a circle, using 
+// the definitions here.
+
+// i) Create a function called calcCircumference:
+// •  Pass the radius to the function.
+// •  Calculate the circumference based on the radius, and output "The circumference is NN".
+// Circumference of circle    =     2πr
+
+// function calcCircumference(radius) {
+
+//     return 2 * Math.PI * radius;
+// }
+// var result = calcCircumference(5);
+// console.log("Circumference is: ",result);
+
+
+
+
+// Create a function called calcArea:
+// •     Pass the radius to the function.
+// •     Calculate the area based on the radius, and output "The area is NN".
+// Area of circle =     πr2
+
+
+// function calcArea(radius) {
+
+//     return Math.PI * (radius*radius);
+// }
+// var result = calcArea(5);
+// console.log("Area is: ",result);
